@@ -86,7 +86,7 @@ public class Java_Assessment
 
         System.out.print("Enter Book ID: ");
         int bookId = scanner.nextInt();
-        scanner.nextLine(); // Consume newline characte
+        scanner.nextLine(); 
 
        
         if (bookIds.contains(bookId)) 
@@ -163,7 +163,7 @@ public class Java_Assessment
             if (books.get(i).bookId == bookId) 
             {
                 books.remove(i);
-                bookIds.remove(bookId); // Remove Book ID from HashSet
+                bookIds.remove(bookId);
                 System.out.println("Book deleted successfully!");
                 return;
             }
